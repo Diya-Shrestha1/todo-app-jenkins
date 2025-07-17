@@ -9,7 +9,7 @@ services:
 
   db:
     container_name: db
-    image: diyashrestha12/todo-db
+    image: mysql:5.7
     environment:
       - MYSQL_ROOT_PASSWORD=password
     volumes:
